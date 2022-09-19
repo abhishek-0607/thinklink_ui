@@ -2,8 +2,6 @@
   width: 100%;
   height: 70px;
   background-color: #811434;
-  position: fixed;
-  z-index: 1;
 }
 .navbar-container {
   display: flex;
@@ -15,7 +13,7 @@
 .logo-container {
   flex: 1;
   text-align: left;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .logo {
   margin: 0;
@@ -23,24 +21,32 @@
 }
 #searchbar {
   flex: 1;
-  border: 3px solid red;
-  border-radius: 4px;
+  /* border: 3px solid #811434;
+  border-radius: 4px; */
   display: flex;
 }
 #btn {
   padding: 8px;
-  border: none;
+  border: 1px solid #811434;
+  border-right: 0;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   background-color: white;
   width: 25px;
 }
 #movie {
   width: 90%;
   padding: 8px;
-  border: none;
+  border: 1px solid #811434;
+  border-left: 0;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .menu-container {
   flex: 2;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .menu-list {
   display: flex;
@@ -69,26 +75,4 @@
 }
 .profile .down {
   margin: 3px 5px 0 0;
-}
-.last {
-  margin-right: 40px;
-
-  padding: 3px 10px;
-  border-radius: 3px;
-  font-weight: 200;
-
-  background: #250000;
-  background: -moz-linear-gradient(
-    -45deg,
-    #250000 0%,
-    #cb0000 99%,
-    #dd7676 100%
-  );
-  background: -webkit-linear-gradient(
-    -45deg,
-    #250000 0%,
-    #cb0000 99%,
-    #dd7676 100%
-  );
-  background: linear-gradient(135deg, #250000 0%, #cb0000 99%, #dd7676 100%);
 }

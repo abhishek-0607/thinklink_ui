@@ -36,7 +36,7 @@ export const Navbar = () => {
                 <h6>Nicholas D.</h6>
               </div>
               <div>
-                <img src="profile.jpeg" />
+                <img src="../profile.jpeg" alt="" />
               </div>
               <div className="down">
                 <FontAwesomeIcon icon={faAngleDown} />
