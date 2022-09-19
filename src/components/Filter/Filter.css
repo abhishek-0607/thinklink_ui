@@ -1,0 +1,28 @@
+.filter {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  color: #811434;
+}
+.item {
+  height: 56px;
+}
+.icon {
+  /* border: 1px solid #811434; */
+  width: 20px;
+  text-align: center;
+}
+
+.first {
+  background: #f7f1f3;
+  border-right: 3px solid #811434;
+}
+.item > div {
+  margin: 14px 20px;
+  /* border: 1px solid green; */
+  display: flex;
+}
+.item > div > span {
+  padding-left: 15px;
+}
